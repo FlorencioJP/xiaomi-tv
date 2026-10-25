@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tiles per row, for the dock and the grid below it -->
+    <integer name="columns">5</integer>
+
+    <!-- With the Home key service on: open this launcher at power-on (instead of what the firmware shows) -->
+    <bool name="power_on_home">true</bool>
+
+    <!-- Home screen the Home key opens (package/activity). Empty or not installed = this launcher. -->
+    <string name="home_component">com.omarchytv.home/.MainActivity</string>
+
+    <!-- Dock apps, left to right (package names). Missing ones are skipped. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.canal.android.canal</item>
+        <item>com.plexapp.android</item>
+        <item>io.put.putio</item>
+    </string-array>
+</resources>
